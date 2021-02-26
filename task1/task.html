@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+    <style>
+        .static {
+            position: absolute;
+            background: white;
+        }
+
+        .static:hover {
+            opacity: 0;
+        }
+        .items :hover{
+          background-image: linear-gradient(red,blue,pink,aqua);
+        }
+        
+        .left {
+            display: flex;
+        }
+        .a1:hover + body{
+          background-color: green;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient(120deg,#3e32a8,#e310c7);">
+    <div class="slider">
+        <div class="rotator">
+          <div class="items" style="background-image: linear-gradient(120deg,aqua,#e310c7);">
+           <a onmouseover="document.bgColor='yellow'"><img class="static a1"   src="https://lh4.googleusercontent.com/-gZiu96oTuu4/Uag5oWLQHfI/AAAAAAAABSE/pl1W8n91hH0/w140-h165-no/Homer-Static.png " width="200px" height="200px"></a>
+            <img class="active back" src="https://lh4.googleusercontent.com/i1RprwcvxhbN2TAMunNxS4RiNVT0DvlD9FNQCvPFuJ0=w140-h165-no " alt="items photo" width="200px" height="200px"/>
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,#d61919,#e310c7);">
+            <a onmouseover="document.bgColor='yellow'"></a> <img class="static back1" src="assets/Capture.png" width="200px" height="200px"></a>
+            <a onmouseover="document.bgColor='yellow'"> <img class="active back1" src="https://media.giphy.com/media/11JTxkrmq4bGE0/giphy.gif" width="100%" height="100%"/></a>
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,yellow,#e310c7);">
+            
+            <img class="static " src="assets/Capture1.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/image.gif">
+          </div>
+          <div class="items">
+            <img class="static " src="assets/Capture3.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/tenor.gif">
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,orange,#e310c7);">
+            <img class="static " src="assets/bye.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/wave-bye.gif">
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,#23d157,#e310c7);">
+            <img class="static " src="assets/shin.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/shin.gif">
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,#f30b0b,#e310c7);">
+            <img class="static " src="assets/running1.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/running-exercise.gif">
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,#32a855,#e310c7);">
+            <img class="static " src="assets/fire.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/jaseel-fliss.gif">  
+          </div>
+          <div class="items" style="background-image: linear-gradient(120deg,#3e32a8,#10e3c7);">
+            <img class="static " src="assets/rocket.PNG" alt="items photo" width="100%" height="100%" />
+            <img class="active " src="assets/lunar-crush.gif">
+          </div>
+    
+        </div>
+    
+      </div>
+</body>
+</html>
